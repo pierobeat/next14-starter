@@ -1,0 +1,29 @@
+:root {
+  --bg: #FFFBF0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+}
+
+#container {
+  /* background: rgb(129, 129, 236); */
+  width: 1536px;
+  margin: auto;
+  padding: 0 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
