@@ -1,5 +1,9 @@
 :root {
   --bg: #FFFBF0;
+  --bgSoft: #ffe8a8;
+  --text: black;
+  --textSoft: black;
+  --btn: black;
 }
 
 * {
@@ -26,4 +30,40 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+@media (max-width: 1536px) {
+  #container {
+    width: 1366px;
+  }
+}
+
+@media (max-width: 1366px) {
+  #container {
+    width: 1280px;
+  }
+}
+
+@media (max-width: 1280px) {
+  #container {
+    width: 1024px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #container {
+    width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  #container {
+    width: 640px;
+  }
+}
+
+@media (max-width: 640px) {
+  #container {
+    width: 100%;
+  }
 }
